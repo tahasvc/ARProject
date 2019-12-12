@@ -7,7 +7,7 @@ public class HelloAR : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print("Hello AR Project :) ");
+        print("Hello AR Project :)");
     }
 
     // Update is called once per frame
