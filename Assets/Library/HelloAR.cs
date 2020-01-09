@@ -22,6 +22,6 @@ public class HelloAR : MonoBehaviour
 
         float dikey = Input.GetAxis("Vertical");
         Vector3 hareket = new Vector3(yatay * Hiz, 0.0f, dikey * Hiz);
-        rb.AddForce(hareket);//force güç ekle demek
+        rb.AddForce(hareket);//force güç ekle demek unutmayınız
     }
 }
